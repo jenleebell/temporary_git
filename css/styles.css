@@ -1,0 +1,81 @@
+@font-face {
+  font-family: Playfair-Bold;
+  src: url(fonts/PlayfairDisplayBold.otf);
+}
+
+@font-face {
+  font-family: Playfair-Regular;
+  src: url(fonts/PlayfairDisplay-Regular.otf);
+}
+
+@font-face {
+  font-family: Novecento;
+  src: url(fonts/Novecento.otf);
+}
+
+/* INDEX STYLES */
+
+.container {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.line {
+  height: 1px;
+  border-bottom: 2px solid #e6e6e6;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.name {
+  font-family: Playfair-Bold;
+  font-size: 5em;
+}
+
+.title {
+  font-family: Playfair-Regular;
+  font-size: 1.5em;
+  letter-spacing: 15px;
+  margin-bottom: 15px;
+}
+
+a:link {
+  text-decoration: none;
+  color:inherit;
+}
+
+a:visited {
+  color: #b3b3b3;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #000;
+  text-decoration: underline;
+}
+
+.navigation ul li {
+  display: inline-block;
+  padding: 5px;
+  font-family: Novecento;
+  color: #b3b3b3;
+  letter-spacing: 2px;
+}
+
+.image {
+  margin: 20px;
+}
+
+.image img {
+  width: 45%;
+}
+
+.copyright{
+  font-family: Novecento;
+  font-size: 1em;
+}
