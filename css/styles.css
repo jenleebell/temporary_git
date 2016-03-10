@@ -61,6 +61,14 @@
   font-size: 5em;
 }
 
+.name a {
+  color: #000 !important;
+}
+
+.name a:hover {
+  text-decoration: none;
+}
+
 .title {
   font-family: Playfair-Regular;
   font-size: 1.5em;
@@ -128,6 +136,7 @@ a:active {
   width: 70%;
 }
 
+
 /* COPYRIGHT PAGE STYLES */
 
 .register {
@@ -138,4 +147,19 @@ a:active {
 
 .register a {
   color: #000;
+}
+
+.register img {
+  width: 100%;
+}
+
+/* PHOTOGRAPHY PAGE STYLES */
+
+.books {
+  text-align: center;
+}
+
+.books img {
+  max-height: 175px;
+  margin: 10px;
 }
