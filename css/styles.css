@@ -70,7 +70,7 @@
 
 a:link {
   text-decoration: none;
-  color:inherit;
+  color: #b3b3b3;
 }
 
 a:visited {
@@ -126,4 +126,16 @@ a:active {
 
 .patent img {
   width: 70%;
+}
+
+/* COPYRIGHT PAGE STYLES */
+
+.register {
+  margin-top: 15px;
+  color: #fff;
+  background-color: #b3b3b3;
+}
+
+.register a {
+  color: #000;
 }
