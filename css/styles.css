@@ -61,46 +61,12 @@
   font-size: 5em;
 }
 
-.name a {
-  color: #000 !important;
-}
-
-.name a:hover {
-  text-decoration: none;
-}
 
 .title {
   font-family: Playfair-Regular;
   font-size: 1.5em;
   letter-spacing: 15px;
   margin-bottom: 15px;
-}
-
-a:link {
-  text-decoration: none;
-  color: #999999;
-}
-
-a:visited {
-  color: #999999;
-}
-
-a:hover {
-  color: #000;
-  text-decoration: underline;
-}
-
-a:active {
-  color: #000;
-  text-decoration: underline;
-}
-
-.navigation ul li {
-  display: inline-block;
-  padding: 8px;
-  font-family: Novecento;
-  color: #999999;
-  letter-spacing: 1.5px;
 }
 
 
@@ -117,11 +83,49 @@ a:active {
   font-size: 1em;
 }
 
+/* LINK & NAVIGATION STYLES */
+
+
+a:link {
+  text-decoration: none;
+  color: #999999;
+}
+
+a:visited {
+  color: #999999;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+.navigation .nav {
+  display: inline-block;
+  padding: 15px 8px;
+  font-family: Novecento;
+  letter-spacing: 1.5px;
+}
+
+.active a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.name a {
+  color: #000;
+}
+
+.name a:hover {
+  text-decoration: none;
+}
+
 
 /* CONTENT STYLES */
 
 .content {
-  margin: 20px 80px 20px 80px;
+  margin: 20px 110px 20px 110px;
   font-family: Playfair-Regular;
   text-align: left;
 }
@@ -146,13 +150,8 @@ a:active {
 
 /* PHOTOGRAPHY PAGE STYLES */
 
-.books {
-  text-align: center;
-}
-
-.books img {
-  max-height: 175px;
-  margin: 10px;
+.photo-right img {
+  width: 100%;
 }
 
 /* PUBLISH PAGE STYLES */
