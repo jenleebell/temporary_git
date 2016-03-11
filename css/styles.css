@@ -143,19 +143,6 @@ a:active {
   width: 100%;
 }
 
-/*.register {
-  margin-top: 15px;
-  color: #fff;
-  background-color: #999999;
-}
-
-.register a {
-  color: #000;
-}
-
-.register img {
-  width: 100%;
-}*/
 
 /* PHOTOGRAPHY PAGE STYLES */
 
@@ -166,4 +153,10 @@ a:active {
 .books img {
   max-height: 175px;
   margin: 10px;
+}
+
+/* PUBLISH PAGE STYLES */
+
+.publish img {
+  width: 100%;
 }
