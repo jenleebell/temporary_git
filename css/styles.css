@@ -78,11 +78,11 @@
 
 a:link {
   text-decoration: none;
-  color: #b3b3b3;
+  color: #999999;
 }
 
 a:visited {
-  color: #b3b3b3;
+  color: #999999;
 }
 
 a:hover {
@@ -97,10 +97,10 @@ a:active {
 
 .navigation ul li {
   display: inline-block;
-  padding: 5px;
+  padding: 8px;
   font-family: Novecento;
-  color: #b3b3b3;
-  letter-spacing: 2px;
+  color: #999999;
+  letter-spacing: 1.5px;
 }
 
 
@@ -130,7 +130,7 @@ a:active {
   font-family: Playfair-Bold;
 }
 
-/* PATENT PAGE STYLES */
+/* INTELLECTUAL PROPERTY PAGE STYLES */
 
 .patent img {
   width: 70%;
@@ -139,10 +139,14 @@ a:active {
 
 /* COPYRIGHT PAGE STYLES */
 
-.register {
+.copyright img {
+  width: 100%;
+}
+
+/*.register {
   margin-top: 15px;
   color: #fff;
-  background-color: #b3b3b3;
+  background-color: #999999;
 }
 
 .register a {
@@ -151,7 +155,7 @@ a:active {
 
 .register img {
   width: 100%;
-}
+}*/
 
 /* PHOTOGRAPHY PAGE STYLES */
 
