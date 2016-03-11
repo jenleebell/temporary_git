@@ -160,3 +160,12 @@ a:active {
 .publish img {
   width: 100%;
 }
+
+/* ABOUT PAGE STYLES */
+
+.about img {
+  margin-top: 16px;
+  width: 100%;
+}
+
+/* CONTACT STYLES */
