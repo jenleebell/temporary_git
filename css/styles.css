@@ -45,7 +45,7 @@
 
 .container {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 25px;
   width: 80%;
   margin: 0 auto;
 }
@@ -63,7 +63,6 @@
   font-size: 5em;
 }
 
-
 .title {
   font-family: Playfair-Regular;
   font-size: 1.5em;
@@ -71,6 +70,12 @@
   margin-bottom: 15px;
 }
 
+.copyright{
+  font-family: Novecento;
+  font-size: 1em;
+}
+
+/* FRONT PAGE STYLES */
 
 .front-image {
   margin: 20px;
@@ -80,13 +85,7 @@
   width: 65%;
 }
 
-.copyright{
-  font-family: Novecento;
-  font-size: 1em;
-}
-
 /* LINK & NAVIGATION STYLES */
-
 
 a:link {
   text-decoration: none;
@@ -102,17 +101,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.navigation {
-  margin: 0 -10px;
-}
-
-.navigation .nav {
-  display: inline-block;
-  padding: 15px 8px;
-  font-family: Novecento;
-  letter-spacing: 1.5px;
-}
-
 .active a {
   text-decoration: underline;
   color: #000;
@@ -126,11 +114,21 @@ a:hover {
   text-decoration: none;
 }
 
+.navigation {
+  margin: 0 -10px;
+}
+
+.navigation .nav {
+  display: inline-block;
+  padding: 15px 8px;
+  font-family: Novecento;
+  letter-spacing: 1.5px;
+  font-size: .9em;
+}
 
 /* CONTENT STYLES */
 
 .content {
-  margin: 20px 110px 20px 110px;
   font-family: Playfair-Regular;
   text-align: left;
   width: 100%;
@@ -175,4 +173,13 @@ a:hover {
   width: 100%;
 }
 
-/* CONTACT STYLES */
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .container {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+}
