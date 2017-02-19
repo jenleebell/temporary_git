@@ -17,6 +17,7 @@
 
 * {
     box-sizing: border-box;
+    color: #212121;
   }
 
 .row:after {
@@ -61,6 +62,7 @@
 .name {
   font-family: Playfair-Bold;
   font-size: 5em;
+  color: #212121;
 }
 
 .title {
@@ -97,17 +99,17 @@ a:visited {
 }
 
 a:hover {
-  color: #000;
+  color: #212121;
   text-decoration: underline;
 }
 
 .active a {
   text-decoration: underline;
-  color: #000;
+  color: #212121;
 }
 
 .name a {
-  color: #000;
+  color: #212121;
 }
 
 .name a:hover {
@@ -129,7 +131,7 @@ a:hover {
 /* CONTENT STYLES */
 
 .content {
-  font-family: Playfair-Regular;
+  font-family: Arial;
   text-align: left;
   width: 100%;
   margin: 0 auto;
