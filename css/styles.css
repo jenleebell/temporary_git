@@ -131,14 +131,18 @@ a:hover {
 /* CONTENT STYLES */
 
 .content {
-  font-family: Arial;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 16px;
   text-align: left;
   width: 100%;
   margin: 0 auto;
+  line-height: 1.6;
 }
 
 .headline {
-  font-family: Playfair-Bold;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
 }
 
 /* INTELLECTUAL PROPERTY PAGE STYLES */
